@@ -112,31 +112,37 @@ The evaluation identified both correctable analytical errors and cases in which 
 
 ## Requirements
 
-### Python
+The analyses in this repository were performed using **Python 3.12.12** and **R 4.6.1**.
 
-Python 3.12 was used for the primary statistical and machine-learning analyses.
+### Python Requirements
 
-Main Python packages:
+Python was used for the primary data processing, statistical analysis, machine-learning analysis and figure generation.
 
-- pandas
-- NumPy
-- SciPy
-- statsmodels
-- scikit-learn
-- lifelines
-- Matplotlib
-- seaborn
-- adjustText
+The Python environment used for this project contained:
 
-Install the required Python packages with:
+| Package | Version |
+|---------|---------|
+| pandas | 3.0.0 |
+| NumPy | 2.4.1 |
+| SciPy | 1.17.0 |
+| statsmodels | 0.14.6 |
+| scikit-learn | 1.8.0 |
+| lifelines | 0.30.3 |
+| Matplotlib | 3.10.8 |
+| seaborn | 0.13.2 |
+| adjustText | 1.4.0 |
+
+The required Python packages can be installed using:
 
 ```bash
-pip install pandas numpy scipy statsmodels scikit-learn lifelines matplotlib seaborn adjustText
+pip install pandas==3.0.0 numpy==2.4.1 scipy==1.17.0 statsmodels==0.14.6 scikit-learn==1.8.0 lifelines==0.30.3 matplotlib==3.10.8 seaborn==0.13.2 adjustText==1.4.0
+```
+
 ### R Requirements
 
-R was used for selected independent statistical analyses, validation and figure generation.
+R 4.6.1 was used for selected independent statistical analyses, validation and figure generation.
 
-Required R packages:
+The R packages used were:
 
 - dplyr
 - readr
@@ -145,7 +151,7 @@ Required R packages:
 - ggplot2
 - survival
 
-Install the required R packages from within R using:
+The required R packages can be installed from within R using:
 
 ```r
 install.packages(c(
@@ -165,10 +171,89 @@ install.packages(c(
 | Software / Package | Version |
 |--------------------|---------|
 | Python | 3.12.12 |
-| R | 4.6.1 |
+| pandas | 3.0.0 |
+| NumPy | 2.4.1 |
+| SciPy | 1.17.0 |
+| statsmodels | 0.14.6 |
+| scikit-learn | 1.8.0 |
+| lifelines | 0.30.3 |
+| Matplotlib | 3.10.8 |
+| seaborn | 0.13.2 |
 | adjustText | 1.4.0 |
+| R | 4.6.1 |
 | dplyr | 1.2.1 |
 | readr | 2.2.0 |
 | tidyr | 1.3.2 |
 | ggplot2 | Version used in the R environment |
 | survival | 3.8-9 |
+| Hermes | Local deployment |
+
+---
+
+## Usage
+
+1. Clone or download this repository.
+
+2. Install the required Python packages:
+
+```bash
+pip install pandas==3.0.0 numpy==2.4.1 scipy==1.17.0 statsmodels==0.14.6 scikit-learn==1.8.0 lifelines==0.30.3 matplotlib==3.10.8 seaborn==0.13.2 adjustText==1.4.0
+```
+
+3. Install the required R packages:
+
+```r
+install.packages(c(
+    "dplyr",
+    "readr",
+    "tidyr",
+    "stringr",
+    "ggplot2",
+    "survival"
+))
+```
+
+4. Obtain authorised access to the required MEDUSA and/or CONFIRM datasets.
+
+5. Place the required data files in an appropriate local directory.
+
+6. Update the local file paths within the Python notebooks and R scripts where required.
+
+7. Run the relevant Python notebook according to the analysis being reproduced.
+
+8. Run the R scripts where independent analysis or figure reproduction is required.
+
+The scripts generate the statistical analyses, tables and figures used to support the findings reported in the dissertation.
+
+Because the underlying patient-level datasets cannot be distributed publicly, the complete analyses cannot be reproduced from this repository without authorised access to the corresponding research data.
+
+---
+
+## Repository Structure
+
+```text
+MEDUSA-Multiomics-Hermes/
+│
+├── README.md
+│
+├── Python/
+│   ├── agreed_features(1).ipynb
+│   ├── Analysing_Master(1).ipynb
+│   ├── evol_arch_mtap(1).ipynb
+│   ├── FDR(1).ipynb
+│   ├── Feature_Landscape(1).ipynb
+│   ├── Figure_Dendritic(1).ipynb
+│   ├── Hallmark_PCA(1).ipynb
+│   ├── Hermes_Independent_Val(1).ipynb
+│   ├── immune_hist.ipynb
+│   ├── MEDUSA_barchart(1).ipynb
+│   ├── methylclock_hist(1).ipynb
+│   ├── RF,GB,ROC,AUC(1).ipynb
+│   ├── table_druggable_targets(1).ipynb
+│   └── Tables_Workflow(1).ipynb
+│
+└── R/
+    ├── MTAP_status_VPlots(2).R
+    ├── pheno_mean_markers(2).R
+    └── epig_clock_MTAP(2).R
+```
