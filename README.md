@@ -96,7 +96,7 @@ Hermes was used as an agentic interface for interrogation of the integrated mult
 Its performance was evaluated using a three-stage framework:
 
 1. **Stage 1 — Data retrieval accuracy**  
-   Evaluation of Hermes's ability to retrieve factual information from the available MEDUSA data.
+   Evaluation of Hermes's ability to retrieve factual information from the available CONFIRM and MEDUSA data.
 
 2. **Stage 2 — Analytical capability**  
    Assessment of Hermes's ability to perform quantitative analysis and generate visualisations, including benchmarking against independently generated Python and R outputs.
