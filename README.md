@@ -132,3 +132,43 @@ Install the required Python packages with:
 
 ```bash
 pip install pandas numpy scipy statsmodels scikit-learn lifelines matplotlib seaborn adjustText
+### R Requirements
+
+R was used for selected independent statistical analyses, validation and figure generation.
+
+Required R packages:
+
+- dplyr
+- readr
+- tidyr
+- stringr
+- ggplot2
+- survival
+
+Install the required R packages from within R using:
+
+```r
+install.packages(c(
+    "dplyr",
+    "readr",
+    "tidyr",
+    "stringr",
+    "ggplot2",
+    "survival"
+))
+```
+
+---
+
+## Software Versions
+
+| Software / Package | Version |
+|--------------------|---------|
+| Python | 3.12.12 |
+| R | 4.6.1 |
+| adjustText | 1.4.0 |
+| dplyr | 1.2.1 |
+| readr | 2.2.0 |
+| tidyr | 1.3.2 |
+| ggplot2 | Version used in the R environment |
+| survival | 3.8-9 |
