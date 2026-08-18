@@ -255,12 +255,12 @@ Hermes-Multiomics-Platform/
     ├── pheno_mean_markers(2).R
     └── epig_clock_MTAP(2).R
 ```
-### Hermes-Generated Outputs and Code Availability
+### Hermes-Generated Analyses and Code Availability
 
-Hermes was operated through natural-language prompts and autonomously generated analyses, code, statistical outputs and visualisations in response to those prompts. Consequently, code generated internally by Hermes is not included in this repository as researcher-authored source code.
+Hermes was operated through natural-language prompts and autonomously determined analytical steps where required, including file selection, data parsing, statistical analysis, cross-file integration and generation of outputs and visualisations.
 
-The Python notebooks and R scripts provided in this repository contain the analyses independently implemented by the researcher, including code used to reproduce, verify and evaluate findings produced by Hermes. This separation was maintained to distinguish researcher-written analytical code from AI-generated code and outputs.
+Code and analytical outputs generated autonomously by Hermes are not included in this repository as researcher-authored source code. The Python notebooks and R scripts provided here instead represent the independently implemented analyses used throughout the project, including conventional analyses used to reproduce, verify and evaluate Hermes-generated findings.
 
-Where Hermes-generated findings contributed to the project, these were independently checked against the underlying data using the Python and R analyses provided in this repository before being reported in the dissertation. The absence of Hermes-generated scripts from the repository therefore reflects their provenance as AI-generated outputs rather than independently authored analytical scripts.
+This distinction reflects the methodology used in the dissertation. Hermes-generated outputs were not treated as ground truth and were independently checked against the underlying MEDUSA data using Python or R before being retained for downstream interpretation. Outputs that could not be independently reproduced or whose provenance could not be established were excluded from downstream use.
 
-Hermes interactions were prompt-driven, meaning that the agent determined the analytical steps and generated the corresponding outputs in response to the instructions provided during the evaluation. The dissertation documents the role of Hermes, the validation process and identified failure modes.
+The absence of Hermes-generated scripts from this repository therefore reflects their provenance as autonomous AI-generated analytical code rather than researcher-authored code. The dissertation documents the natural-language prompting framework, validation procedure, performance assessment and identified failure modes of the Hermes agent.
