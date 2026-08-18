@@ -232,7 +232,7 @@ Because the underlying patient-level datasets cannot be distributed publicly, th
 ## Repository Structure
 
 ```text
-MEDUSA-Multiomics-Hermes/
+Hermes-Multiomics-Platform/
 │
 ├── README.md
 │
