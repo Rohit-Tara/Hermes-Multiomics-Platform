@@ -91,7 +91,7 @@ No patient-level research data are distributed through this repository.
 
 ## Hermes AI Agent
 
-Hermes was used as an agentic interface for interrogation of the integrated multi-omic dataset.
+Hermes was used as an agentic interface for interrogation of the integrated multi-omic dataset. Unlike the independently written Python and R analyses contained in this repository, Hermes analyses were initiated through natural-language prompts, with the agent autonomously generating the code and outputs required to respond.
 
 Its performance was evaluated using a three-stage framework:
 
@@ -104,9 +104,7 @@ Its performance was evaluated using a three-stage framework:
 3. **Stage 3 — Autonomous hypothesis generation**  
    Evaluation of Hermes's ability to identify MTAP-associated findings and synthesise candidate biological and therapeutic hypotheses without step-by-step analytical instructions.
 
-All Hermes outputs used to support reported findings were independently reproduced using Python or R.
-
-The evaluation identified both correctable analytical errors and cases in which previously incorrect findings could reappear in later Hermes outputs, highlighting the importance of independent verification when using LLM agents for biomedical data analysis.
+Hermes-generated findings used to support the reported results were independently reproduced or verified using Python or R. The evaluation identified both correctable analytical errors and instances in which previously incorrect findings could reappear in later Hermes outputs, demonstrating the importance of independent verification when using LLM agents for biomedical data analysis.
 
 ---
 
@@ -257,3 +255,12 @@ Hermes-Multiomics-Platform/
     ├── pheno_mean_markers(2).R
     └── epig_clock_MTAP(2).R
 ```
+### Hermes-Generated Outputs and Code Availability
+
+Hermes was operated through natural-language prompts and autonomously generated analyses, code, statistical outputs and visualisations in response to those prompts. Consequently, code generated internally by Hermes is not included in this repository as researcher-authored source code.
+
+The Python notebooks and R scripts provided in this repository contain the analyses independently implemented by the researcher, including code used to reproduce, verify and evaluate findings produced by Hermes. This separation was maintained to distinguish researcher-written analytical code from AI-generated code and outputs.
+
+Where Hermes-generated findings contributed to the project, these were independently checked against the underlying data using the Python and R analyses provided in this repository before being reported in the dissertation. The absence of Hermes-generated scripts from the repository therefore reflects their provenance as AI-generated outputs rather than independently authored analytical scripts.
+
+Hermes interactions were prompt-driven, meaning that the agent determined the analytical steps and generated the corresponding outputs in response to the instructions provided during the evaluation. The dissertation documents the role of Hermes, the validation process and identified failure modes.
