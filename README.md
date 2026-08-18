@@ -235,25 +235,25 @@ Hermes-Multiomics-Platform/
 ├── README.md
 │
 ├── Python/
-│   ├── agreed_features(1).ipynb
-│   ├── Analysing_Master(1).ipynb
-│   ├── evol_arch_mtap(1).ipynb
-│   ├── FDR(1).ipynb
-│   ├── Feature_Landscape(1).ipynb
-│   ├── Figure_Dendritic(1).ipynb
-│   ├── Hallmark_PCA(1).ipynb
-│   ├── Hermes_Independent_Val(1).ipynb
+│   ├── agreed_features.ipynb
+│   ├── Analysing_Master.ipynb
+│   ├── evol_arch_mtap.ipynb
+│   ├── FDR.ipynb
+│   ├── Feature_Landscape.ipynb
+│   ├── Figure_Dendritic.ipynb
+│   ├── Hallmark_PCA.ipynb
+│   ├── Hermes_Independent_Val.ipynb
 │   ├── immune_hist.ipynb
-│   ├── MEDUSA_barchart(1).ipynb
-│   ├── methylclock_hist(1).ipynb
-│   ├── RF,GB,ROC,AUC(1).ipynb
-│   ├── table_druggable_targets(1).ipynb
-│   └── Tables_Workflow(1).ipynb
+│   ├── MEDUSA_barchart.ipynb
+│   ├── methylclock_hist.ipynb
+│   ├── RF,GB,ROC,AUC.ipynb
+│   ├── table_druggable_targets.ipynb
+│   └── Tables_Workflow.ipynb
 │
 └── R/
-    ├── MTAP_status_VPlots(2).R
-    ├── pheno_mean_markers(2).R
-    └── epig_clock_MTAP(2).R
+    ├── MTAP_status_VPlots.R
+    ├── pheno_mean_markers.R
+    └── epig_clock_MTAP.R
 ```
 ### Hermes-Generated Analyses and Code Availability
 
