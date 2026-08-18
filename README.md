@@ -64,28 +64,28 @@ No patient-level research data are distributed through this repository.
 
 | Script | Description |
 |--------|-------------|
-| `Analysing_Master(1).ipynb` | Clinical and patient-characteristic analysis of the integrated MEDUSA dataset |
-| `MEDUSA_barchart(1).ipynb` | Analysis and visualisation of data availability and missingness across MEDUSA modalities |
-| `Feature_Landscape(1).ipynb` | Audit and visualisation of the 1,426-feature MEDUSA master dataset |
-| `FDR(1).ipynb` | Epigenetic clock statistical analysis and multiple-testing correction |
-| `methylclock_hist(1).ipynb` | Methylation clock visualisation and associated analyses |
-| `Hallmark_PCA(1).ipynb` | MTAP-associated hallmark pathway analysis and principal component analysis |
-| `agreed_features(1).ipynb` | Analysis and visualisation of MTAP-associated significant features |
-| `RF,GB,ROC,AUC(1).ipynb` | Random Forest and Gradient Boosting classification, ROC curves and AUC analysis |
-| `Figure_Dendritic(1).ipynb` | Activated dendritic-cell analysis and visualisation |
+| `Analysing_Master.ipynb` | Clinical and patient-characteristic analysis of the integrated MEDUSA dataset |
+| `MEDUSA_barchart.ipynb` | Analysis and visualisation of data availability and missingness across MEDUSA modalities |
+| `Feature_Landscape.ipynb` | Audit and visualisation of the 1,426-feature MEDUSA master dataset |
+| `FDR.ipynb` | Epigenetic clock statistical analysis and multiple-testing correction |
+| `methylclock_hist.ipynb` | Methylation clock visualisation and associated analyses |
+| `Hallmark_PCA.ipynb` | MTAP-associated hallmark pathway analysis and principal component analysis |
+| `agreed_features.ipynb` | Analysis and visualisation of MTAP-associated significant features |
+| `RF,GB,ROC,AUC.ipynb` | Random Forest and Gradient Boosting classification, ROC curves and AUC analysis |
+| `Figure_Dendritic.ipynb` | Activated dendritic-cell analysis and visualisation |
 | `immune_hist.ipynb` | Integrated methylation and immune-feature analyses |
-| `evol_arch_mtap(1).ipynb` | Clonal and subclonal evolutionary architecture analysis by MTAP status |
-| `Hermes_Independent_Val(1).ipynb` | Independent validation of Hermes-generated analytical outputs |
-| `table_druggable_targets(1).ipynb` | Generation of the candidate druggable-target summary |
-| `Tables_Workflow(1).ipynb` | Generation of workflow figures and supporting tables |
+| `evol_arch_mtap.ipynb` | Clonal and subclonal evolutionary architecture analysis by MTAP status |
+| `Hermes_Independent_Val.ipynb` | Independent validation of Hermes-generated analytical outputs |
+| `table_druggable_targets.ipynb` | Generation of the candidate druggable-target summary |
+| `Tables_Workflow.ipynb` | Generation of workflow figures and supporting tables |
 
 ### R scripts
 
 | Script | Description |
 |--------|-------------|
-| `MTAP_status_VPlots(2).R` | R-based MTAP violin plots and validation of immune, HRD and transcription-factor features |
-| `pheno_mean_markers(2).R` | Independent CONFIRM immune-marker summary statistics and boxplot |
-| `epig_clock_MTAP(2).R` | Independent R analysis of methylation clocks, genomic instability and stratified survival |
+| `MTAP_status_VPlots.R` | R-based MTAP violin plots and validation of immune, HRD and transcription-factor features |
+| `pheno_mean_markers.R` | Independent CONFIRM immune-marker summary statistics and boxplot |
+| `epig_clock_MTAP.R` | Independent R analysis of methylation clocks, genomic instability and stratified survival |
 
 ---
 
